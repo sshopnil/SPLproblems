@@ -11,7 +11,7 @@ int isPrime(int n)
     }
     return 1;
 }
-int genPrime(int n)
+void genPrime(int n)
 {
     int i = 2, prime, coun = 0;
     printf("%dth prime: ", n);
@@ -28,9 +28,9 @@ int genPrime(int n)
             break;
         }
         i++;
-    }
-    
+    }  
 }
+
 int main()
 {
     int n;
